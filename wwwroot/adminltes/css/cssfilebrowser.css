@@ -1,0 +1,200 @@
+﻿@media (min-width: 1200px) {
+    .modal-xxl {
+        max-width: 90%; /* ubah sesuai keinginan: 80%, 95%, dll */
+    }
+}
+
+#table-datadoc {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#table-datadoc th,
+#table-datadoc td {
+    word-wrap: break-word; /* biar teks panjang nggak bikin kolom melar */
+    white-space: normal;
+}
+
+#dynamic-fields-version-edit table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 2;
+}
+
+.row-select {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.tree-containers {
+    height: 650px;
+    overflow-y: auto;
+    overflow-x: auto; /* scroll-x aktif */
+    white-space: nowrap;
+    padding: 10px 4px;
+}
+
+/* Paksa tree bisa melebar */
+.tree-contents {
+    min-width: max-content;
+}
+
+#table-datadoc_wrapper .dataTables_scrollBody {
+    overflow-y: scroll;
+}
+.border-dynamic-upload {
+    border: 2px solid #63a9ff;
+    border-radius: .25rem;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    background-color: #fff;
+}
+
+#selectedTags .badge {
+    font-size: 1rem;
+    padding: 0.6em 0.9em;
+}
+
+#selectedUsers .badge {
+    font-size: 1rem;
+    padding: 0.6em 0.9em;
+}
+
+#selectedUsersSharedDir .badge {
+    font-size: 0.9rem;
+    padding: 0.6em 0.9em;
+}
+
+#selectedUsersSharedDoc .badge {
+    font-size: 0.9rem;
+    padding: 0.6em 0.9em;
+}
+
+#selectedEmails .badge {
+    font-size: 1rem;
+    padding: 0.6em 0.9em;
+}
+
+#selectedEmailsDir .badge {
+    font-size: 1rem;
+    padding: 0.6em 0.9em;
+}
+
+.drop-zone {
+    position: relative;
+    border: 2px dashed #5a67d8;
+    border-radius: 8px;
+    padding: 30px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+    .drop-zone:hover {
+        background-color: #f8f9ff;
+    }
+
+    .drop-zone input[type=file] {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .drop-zone.dragover {
+        background-color: #eef2ff;
+        border-color: #4c51bf;
+    }
+
+.is-invalid {
+    border-color: #dc3545 !important;
+    background-color: #fff5f5;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+.btn-lightblue {
+    background-color: #add8e6 !important; /* biru muda */
+    color: #004085 !important; /* teks biru tua biar kontras */
+    border: 1px solid #99ccee; /* border sedikit lebih gelap */
+}
+
+    .btn-lightblue:hover {
+        background-color: #9cd0f0 !important; /* biru muda lebih gelap saat hover */
+        color: #002752 !important;
+    }
+
+.modal-backdrop.stacked {
+    opacity: 0.5 !important; /* latar belakang lebih transparan */
+}
+
+iframe {
+    background-color: white !important;
+    color: black !important;
+}
+
+#dynamic-fields-version-edit table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 2;
+}
+
+
+
+body .tooltip .tooltip-inner {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+body .tooltip.bs-tooltip-top .tooltip-arrow::before,
+body .tooltip.bs-tooltip-bottom .tooltip-arrow::before,
+body .tooltip.bs-tooltip-start .tooltip-arrow::before,
+body .tooltip.bs-tooltip-end .tooltip-arrow::before {
+    border-color: #000 !important;
+}
+
+.select2-container .select2-selection--single {
+    line-height: 2rem !important;
+    border: 1px solid #ced4da !important;
+}
+
+.select2-selection__rendered {
+    line-height: 1.8rem !important;
+}
+
+.select2-selection__arrow {
+    line-height: 2rem !important;
+}
+
+
+.dt-info {
+    font-size: 0.85rem !important;
+}
+
+.dt-paging {
+    text-align: right !important;
+}
+
+.dataTables_length {
+    font-size: 0.85rem !important;
+}
+
+.dataTables_paginate ul.pagination {
+    margin: 0 !important;
+}
+
+
+@media (min-width: 1200px) {
+    .modal-xl-custom {
+        max-width: 90%;
+    }
+}

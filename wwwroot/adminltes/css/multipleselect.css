@@ -1,0 +1,63 @@
+﻿.dt-buttons .btn {
+    font-size: .875rem; /* text-xs */
+    padding: .25rem .9rem; /* kecilkan tombol */
+}
+/* =========================
+Select2 Bootstrap Styling
+========================= */
+
+/* Samakan tinggi Select2 dengan .form-control */
+.select2-container--bootstrap4 .select2-selection {
+    height: calc(2.25rem + 2px) !important;
+    padding: .375rem .75rem !important;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem !important;
+}
+
+/* Placeholder sejajar secara vertikal */
+.select2-container--bootstrap4 .select2-selection__rendered {
+    line-height: 2.25rem !important;
+    color: #6c757d; /* warna placeholder */
+}
+
+/* Panah dropdown sejajar */
+.select2-container--bootstrap4 .select2-selection__arrow {
+    height: calc(2.25rem + 2px) !important;
+}
+
+/* Hilangkan input search di dalam box (biar kotak hitam ga muncul) */
+/*.select2-container--bootstrap4 .select2-search--inline {
+    display: none !important;
+}*/
+/* Hanya sembunyikan input kecil di dalam box multiple, bukan yang di dropdown */
+.select2-container--bootstrap4 .select2-selection--multiple .select2-search--inline {
+    display: none !important;
+}
+
+/* =========================
+           Badge Styling
+           ========================= */
+#selectedTags {
+    margin-top: .5rem;
+}
+
+    #selectedTags .badge {
+        font-size: 0.85rem;
+        padding: .45em .75em;
+        border-radius: .35rem;
+        margin: 3px; /* jarak antar badge */
+        display: inline-block;
+        color: #fff !important; /* teks selalu putih */
+    }
+
+/* Hilangkan pilihan default (xIT, xHRD...) dari Select2 multiple */
+.select2-container--bootstrap4 .select2-selection__choice {
+    display: none !important;
+}
+
+/* Hilangkan ikon clear (x) pada Select2 */
+.select2-container--bootstrap4 .select2-selection__clear {
+    display: none !important;
+}

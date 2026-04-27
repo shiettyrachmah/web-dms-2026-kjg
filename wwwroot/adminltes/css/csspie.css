@@ -1,0 +1,319 @@
+﻿/* ================================
+   PIE CHART RESPONSIVE CSS
+================================ */
+
+/* Tinggi card pie chart agar mirip area chart */
+.card-body.pie-body {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-body.share-body {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Wrapper untuk chart + legend */
+.pie-wrapper,
+.pie-wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Ukuran chart responsif */
+#myPieChart {
+    width: 100% !important;
+    max-width: 260px; /* batas tampilan desktop */
+    height: auto !important;
+    max-height: 260px;
+    display: block;
+    margin-block-end: auto;
+}
+
+#myPieChart {
+    flex-shrink: 0; /* 🔥 biar tidak dorong legend */
+}
+
+
+/* Legend */
+.pie-legend {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    max-width: 180px; /* 🔥 BATAS LEBAR */
+    max-height: 220px; /* 🔥 BATAS TINGGI */
+    overflow-y: auto; /* 🔥 SCROLL */
+    overflow-x: hidden; /* 🔥 CEGAH KELUAR */
+}
+
+    .pie-legend li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; /* 🔥 POTONG TEKS */
+    }
+
+    .pie-legend span {
+        width: 14px;
+        height: 14px;
+        margin-right: 8px;
+        border-radius: 3px;
+    }
+
+/* Wrapper untuk chart + legend */
+.pie-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 🔥 penting */
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Ukuran chart responsif */
+#myPieChart2 {
+    width: 100% !important;
+    max-width: 260px; /* batas tampilan desktop */
+    height: 300px !important;
+    max-height: 260px;
+    display: block;
+    margin-block-end: auto;
+}
+
+#myPieChart2 {
+    flex-shrink: 0;
+}
+
+/* Legend */
+.pie-legend2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    max-width: 160px; /* 🔥 sedikit lebih kecil dari chart */
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-shrink: 1; /* 🔥 biar tidak maksa keluar */
+}
+
+    .pie-legend2 li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; /* 🔥 POTONG TEKS */
+    }
+
+    .pie-legend2 span {
+        width: 14px;
+        height: 14px;
+        margin-right: 8px;
+        border-radius: 3px;
+    }
+
+
+
+/* Wrapper chart */
+.card-body.pie-body-3 {
+    height: 350px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-wrapper3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#myPieChart3 {
+    width: 650px !important;
+    height: 300px !important;
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Legend */
+.pie-legend3 {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 13px;
+    display: flow;
+    justify-content: center;
+    align-items: center;
+}
+
+    .pie-legend3 li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .pie-legend3 span {
+        width: 14px;
+        height: 14px;
+        margin-right: 8px;
+        border-radius: 3px;
+    }
+
+
+
+
+/* Wrapper untuk chart + legend */
+.pie-wrapper-uploadbyme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Di mobile, legend otomatis turun */
+}
+
+/* Ukuran chart responsif */
+#myPieChartUploadByMe {
+    width: 100% !important;
+    max-width: 260px; /* batas tampilan desktop */
+    height: 300px !important;
+    max-height: 260px;
+    display: block;
+    margin-block-end: auto;
+}
+
+
+
+/* Legend */
+.pie-legend-uploadbyme {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+    .pie-legend-uploadbyme li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+
+    .pie-legend-uploadbyme span {
+        width: 14px;
+        height: 14px;
+        margin-right: 8px;
+        border-radius: 3px;
+    }
+
+
+.share-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ========================================
+   RESPONSIVE BREAKPOINTS
+======================================== */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .card-body.pie-body {
+        height: auto; /* biarkan tinggi mengikuti isi */
+        padding: 20px 0;
+    }
+
+    .pie-wrapper {
+        flex-direction: column;
+    }
+
+    #myPieChart {
+        max-width: 220px;
+        max-height: 220px;
+    }
+
+    .pie-wrapper2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* 🔥 INI YANG PENTING */
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%; /* 🔥 biar tidak overflow */
+    }
+
+    #myPieChart2 {
+        max-width: 220px;
+        max-height: 220px;
+    }
+
+    .pie-wrapper3 {
+        flex-direction: column;
+    }
+
+    #myPieChart3 {
+        max-width: 900px;
+        max-height: 220px;
+    }
+
+    .pie-wrapper-uploadbyme {
+        flex-direction: column;
+    }
+
+    #myPieChartUploadByMe {
+        max-width: 900px;
+        max-height: 220px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    #myPieChart {
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .pie-legend {
+        font-size: 12px;
+    }
+
+    #myPieChart2 {
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .pie-legend2 {
+        font-size: 12px;
+    }
+
+    #myPieChart3 {
+        max-width: 400px;
+        max-height: 180px;
+    }
+
+    .pie-legend3 {
+        font-size: 12px;
+    }
+
+    #myPieChartUploadByMe {
+        max-width: 400px;
+        max-height: 180px;
+    }
+
+    .pie-legend-uploadbyme {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,79 @@
+﻿#tree li {
+    margin: 4px 0;
+}
+
+#tree a {
+    text-decoration: none;
+    color: #333;
+}
+
+    #tree a:hover {
+        text-decoration: underline;
+    }
+
+#tree ul {
+    margin-left: 1rem; /* jarak antar level */
+    list-style: none; /* hilangkan bullet */
+    margin: 0;
+    padding-left: 18px; /* kontrol jarak anak ke parent */
+}
+
+#tree {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #a8a8a8 transparent;
+}
+
+    #tree::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    #tree::-webkit-scrollbar-thumb {
+        background-color: #a8a8a8;
+        border-radius: 10px;
+    }
+
+/*.tree-node {
+    cursor: pointer;
+    text-decoration: none;
+    color: #212529;*/ /* optional: biar warnanya netral */
+/*}
+
+    .tree-node:hover {
+        text-decoration: underline;
+        color: #0d6efd;*/ /* opsional: warna saat hover (biru bootstrap) */
+/*}*/
+
+
+/* Header table sama style dengan judul card */
+.table thead th {
+    font-weight: 600;
+    color: #4e73df; /* sama kayak text-primary di header */
+    background-color: #f8f9fc;
+    vertical-align: middle;
+}
+
+.jstree-default .jstree-children li {
+    margin-left: 10px !important; /* ganti default indentasi */
+}
+
+/* Biar cell nggak terlalu dempet */
+.table td,
+.table th {
+    padding: .65rem .75rem;
+    vertical-align: middle;
+    font-size: .875rem;
+}
+
+/* Hover lebih halus */
+.table-hover tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* Aksi kolom biar sejajar */
+.table td .btn {
+    margin-right: .25rem;
+}
+
+    .table td .btn:last-child {
+        margin-right: 0;
+    }

@@ -1,0 +1,51 @@
+﻿#annotationContainer {
+    position: relative;
+}
+
+.toolbar {
+    position: sticky; /* 🔥 penting */
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center; /* Vertikal rata tengah */
+    gap: 5px; /* Jarak antar tombol */
+    flex-wrap: nowrap; /* Jangan pindah ke baris baru */
+}
+
+.toolbar label,
+.toolbar input {
+    display: inline-block;
+}
+
+#pdfViewer {
+    margin-top: 50px; /* toolbar height */
+}
+
+.pdf-page {
+    position: relative;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+    .pdf-page canvas {
+        display: block;
+    }
+
+.pdf-page {
+    position: relative;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    width: fit-content;
+}
+
+.konvajs-content {
+    position: relative !important;
+}
+
+.modal-backdrop {
+    pointer-events: none;
+}
+
+.konva-container canvas {
+    pointer-events: auto !important;
+}
