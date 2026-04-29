@@ -394,6 +394,7 @@ $(document).on("click", ".edit-user", function (e) {
 });
 
 $(document).on("click", ".edit-user-akses", function (e) {
+    debugger;
     e.preventDefault();
     isEdit = true;
 
@@ -407,7 +408,7 @@ $(document).on("click", ".edit-user-akses", function (e) {
         url: WebUrl + "/UsersAdminCollection/GetById/" + userId,
         type: "GET",
         success: function (res) {
-            // console.log(res);
+             console.log(res);
 
             $("#modalTambahUserAkses").modal("show");
             $("#user_id_akses").val(res.user_view_auth_dir.user_id);
