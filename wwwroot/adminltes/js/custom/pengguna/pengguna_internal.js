@@ -394,7 +394,7 @@ $(document).on("click", ".edit-user", function (e) {
 });
 
 $(document).on("click", ".edit-user-akses", function (e) {
-    debugger;
+    //debugger;
     e.preventDefault();
     isEdit = true;
 
@@ -582,7 +582,7 @@ function getPagingType() {
     return window.innerWidth <= 768 ? 'simple' : 'full_numbers';
 }
 
-debugger;
+//debugger;
 
 function initDataTableInternal() {
     if (internalTable) return;

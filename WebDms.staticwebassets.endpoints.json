@@ -1151,51 +1151,6 @@
       ]
     },
     {
-      "Route": "adminltes/js/custom/filebrowser/annotationpdf_fb.h4o3kz1vqq.js",
-      "AssetFile": "adminltes/js/custom/filebrowser/annotationpdf_fb.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31476"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"H5Nt5kvSGI/XQ//rHPmEXidI7DaodAWzlc1T2OSolTg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 03 Apr 2026 08:11:25 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h4o3kz1vqq"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-H5Nt5kvSGI/XQ//rHPmEXidI7DaodAWzlc1T2OSolTg="
-        },
-        {
-          "Name": "label",
-          "Value": "adminltes/js/custom/filebrowser/annotationpdf_fb.js"
-        }
-      ]
-    },
-    {
       "Route": "adminltes/js/custom/filebrowser/annotationpdf_fb.js",
       "AssetFile": "adminltes/js/custom/filebrowser/annotationpdf_fb.js",
       "Selectors": [],
@@ -1210,7 +1165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31476"
+          "Value": "31478"
         },
         {
           "Name": "Content-Type",
@@ -1218,17 +1173,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H5Nt5kvSGI/XQ//rHPmEXidI7DaodAWzlc1T2OSolTg=\""
+          "Value": "\"FIuXMiXjggOo24k6j68xw5Jo6ICGxrXySA7UJFtHiLg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 03 Apr 2026 08:11:25 GMT"
+          "Value": "Mon, 04 May 2026 06:13:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H5Nt5kvSGI/XQ//rHPmEXidI7DaodAWzlc1T2OSolTg="
+          "Value": "sha256-FIuXMiXjggOo24k6j68xw5Jo6ICGxrXySA7UJFtHiLg="
+        }
+      ]
+    },
+    {
+      "Route": "adminltes/js/custom/filebrowser/annotationpdf_fb.o52guaki83.js",
+      "AssetFile": "adminltes/js/custom/filebrowser/annotationpdf_fb.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIuXMiXjggOo24k6j68xw5Jo6ICGxrXySA7UJFtHiLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 04 May 2026 06:13:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o52guaki83"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIuXMiXjggOo24k6j68xw5Jo6ICGxrXySA7UJFtHiLg="
+        },
+        {
+          "Name": "label",
+          "Value": "adminltes/js/custom/filebrowser/annotationpdf_fb.js"
         }
       ]
     },
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "Route": "adminltes/js/custom/pengguna/pengguna_internal.015xxr3i0p.js",
+      "Route": "adminltes/js/custom/pengguna/pengguna_internal.a7lpnwa6r0.js",
       "AssetFile": "adminltes/js/custom/pengguna/pengguna_internal.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1411,7 +1411,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41117"
+          "Value": "41121"
         },
         {
           "Name": "Content-Type",
@@ -1419,21 +1419,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TKupdQ69i3fDRG2m1pGUzEQ3M91yYOMXpmW/6KDM7eA=\""
+          "Value": "\"arEEEar/tJyBNNe71WFqYTkmtGoOJe1gGyuMoez+aYA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Apr 2026 04:57:52 GMT"
+          "Value": "Mon, 04 May 2026 06:13:47 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "015xxr3i0p"
+          "Value": "a7lpnwa6r0"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TKupdQ69i3fDRG2m1pGUzEQ3M91yYOMXpmW/6KDM7eA="
+          "Value": "sha256-arEEEar/tJyBNNe71WFqYTkmtGoOJe1gGyuMoez+aYA="
         },
         {
           "Name": "label",
@@ -1456,7 +1456,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41117"
+          "Value": "41121"
         },
         {
           "Name": "Content-Type",
@@ -1464,17 +1464,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TKupdQ69i3fDRG2m1pGUzEQ3M91yYOMXpmW/6KDM7eA=\""
+          "Value": "\"arEEEar/tJyBNNe71WFqYTkmtGoOJe1gGyuMoez+aYA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Apr 2026 04:57:52 GMT"
+          "Value": "Mon, 04 May 2026 06:13:47 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TKupdQ69i3fDRG2m1pGUzEQ3M91yYOMXpmW/6KDM7eA="
+          "Value": "sha256-arEEEar/tJyBNNe71WFqYTkmtGoOJe1gGyuMoez+aYA="
         }
       ]
     },

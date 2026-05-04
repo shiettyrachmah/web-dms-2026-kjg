@@ -23,7 +23,7 @@ let lastPoint = null;
 let isEditingText = false;
 let selectedRect = null;
 let isRemoved = false;
-debugger;
+//debugger;
 
 window.pdfState = {
 	currentPage: 1,
