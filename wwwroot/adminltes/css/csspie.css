@@ -63,7 +63,9 @@
         margin-bottom: 6px;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis; /* 🔥 POTONG TEKS */
+        /*text-overflow: ellipsis; /* 🔥 POTONG TEKS */
+        white-space: normal; /* boleh turun baris */
+        word-break: break-word;
     }
 
     .pie-legend span {
